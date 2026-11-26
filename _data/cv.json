@@ -1,0 +1,98 @@
+{
+  "basics": {
+    "name": "Pushkaraj Said",
+    "email": "pushkaraj@tamu.edu",
+    "phone": "",
+    "website": "https://pushkaraj-s.github.io",
+    "summary": "Embedded and systems software engineer.",
+    "location": {
+      "city": "College Station",
+      "region": "TX"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "pushkaraj-s",
+        "url": "https://github.com/pushkaraj-s"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "pushkarajsaid",
+        "url": "https://www.linkedin.com/in/pushkarajsaid/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NVIDIA",
+      "position": "System Software Engineering Intern",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "summary": "CUDA Driver Development"
+    },
+    {
+      "company": "Tesla",
+      "position": "Software Integration Intern",
+      "startDate": "2025-09",
+      "endDate": "2026-01",
+      "summary": "Cybercab program, Service Tooling Engineering"
+    },
+    {
+      "company": "Amazon Web Services, Annapurna Labs",
+      "position": "Systems Development Intern",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "PXE boot migration, U-Boot and custom Linux builds"
+    },
+    {
+      "company": "Cummins",
+      "position": "Embedded Software Developer",
+      "startDate": "2023-07",
+      "endDate": "2024-07",
+      "summary": "BSP and firmware for engine controllers"
+    },
+    {
+      "company": "Cummins",
+      "position": "Firmware Software Intern (Test Automation)",
+      "startDate": "2022-07",
+      "endDate": "2022-09",
+      "summary": "Python and UART test automation"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Texas A&M University",
+      "area": "Computer Engineering",
+      "studyType": "M.S.",
+      "startDate": "2024-08",
+      "endDate": "2026-08",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Savitribai Phule Pune University",
+      "area": "Electronics and Telecommunication Engineering",
+      "studyType": "B.E.",
+      "startDate": "2019-08",
+      "endDate": "2023-07",
+      "gpa": "8.8/10",
+      "courses": []
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Multi-modal Sensing and AI Perception of Humanoid Robot",
+      "publisher": "IEEE",
+      "releaseDate": "2023",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
+}

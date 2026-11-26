@@ -1,0 +1,112 @@
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<!-- Support for Academicons -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- Google Fonts - Roboto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- Force light theme inline -->
+<style>
+html {
+  color-scheme: light !important;
+}
+html[data-theme="dark"] {
+  background-color: white !important;
+  color: #333 !important;
+}
+html[data-theme="dark"] body {
+  background-color: white !important;
+  color: #333 !important;
+}
+body {
+  background-color: white !important;
+  color: #333 !important;
+}
+/* Force light theme for header */
+html[data-theme="dark"] .masthead {
+  background-color: white !important;
+  background: white !important;
+  border-bottom: 1px solid #f2f2f2 !important;
+}
+html[data-theme="dark"] .masthead__inner-wrap {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .masthead__menu {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .masthead a {
+  color: #333 !important;
+}
+html[data-theme="dark"] .greedy-nav {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .greedy-nav a {
+  color: #333 !important;
+}
+html[data-theme="dark"] .visible-links {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .masthead__menu-item {
+  background-color: white !important;
+  background: white !important;
+}
+/* Force light theme for footer */
+html[data-theme="dark"] .page__footer {
+  background-color: #f2f2f2 !important;
+  color: #333 !important;
+}
+html[data-theme="dark"] .page__footer-copyright {
+  color: #333 !important;
+}
+/* Force light theme for sidebar */
+html[data-theme="dark"] .sidebar {
+  background-color: white !important;
+}
+html[data-theme="dark"] .author__content {
+  color: #333 !important;
+}
+/* Fix icon alignment in sidebar */
+.author__urls .icon-pad-right {
+  width: 1.25em !important;
+  text-align: center !important;
+  display: inline-block !important;
+}
+</style>
+
+<!-- Force light theme script -->
+<script>
+(function() {
+  // Remove dark theme immediately
+  document.documentElement.removeAttribute('data-theme');
+  localStorage.removeItem('theme');
+  
+  // Force light theme on DOM ready
+  document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.removeItem('theme');
+  });
+})();
+</script>
+
+<!-- CV Styles -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">
+
+<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
+<link rel="icon" href="/images/favicon.ico"/>
+<meta name="theme-color" content="#ffffff"/>
+
+<!-- end custom head snippets -->
