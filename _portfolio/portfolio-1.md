@@ -1,7 +1,14 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "x86 Based Simple Operating System"
+excerpt: "A simple x86 operating system built for the Operating Systems course (CS611) at Texas A&M: MSI cache coherence, context switching, and FIFO and round robin schedulers with timer interrupts."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Course:** CS611, Operating Systems, Texas A&M University (Aug 2024 to Jan 2025)  
+**Code:** [github.com/pushkaraj-s/Operating-system](https://github.com/pushkaraj-s/Operating-system)
+
+### What I built
+
+* Designed and implemented a cache controller using the MSI (Modified, Shared, Invalid) cache coherence protocol.
+* Developed low level context switching code.
+* Implemented FIFO and round robin schedulers with timer interrupt handling.
